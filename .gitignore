@@ -1,2 +1,4 @@
 /.ipynb_checkpoints
 /OPENAI_API_KEY.yaml
+*.mp3
+static/*.png

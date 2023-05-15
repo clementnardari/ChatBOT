@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>BlattGPT</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BlattGPT</h1>
+        <img src="/static/Blatt.PNG" alt="Image">
+        <form action="/" method="post">
+            <input type="text" name="question" placeholder="Enter your text">
+            <button type="submit">Send</button>
+        </form>
+        <div class="output">
+            <div class="question">{{ question }}</div>
+            <div class="answer">{{ response }}</div>
+        </div>
+    </div>
+</body>
+</html>
+
